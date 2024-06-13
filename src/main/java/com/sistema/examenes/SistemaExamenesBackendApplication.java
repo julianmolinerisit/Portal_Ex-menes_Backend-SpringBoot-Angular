@@ -29,7 +29,9 @@ public class SistemaExamenesBackendApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-			/*try{
+			/* Este try lo comentamos ya que lo usamos para hacer un test al inicio.
+			 * 
+			 * try{
 				Usuario usuario = new Usuario();
 
 				usuario.setNombre("Christian");
